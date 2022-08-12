@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=BhuTuka+Expanded+One&family=Fredoka+One&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="com-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="comments.html">Reviews</a></li>
+                    <!-- <li><a href="">Blog</a></li> -->
+                    <li><a href="Contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+      </section>
+    
+        <section class="location">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.9919925489694!2d67.06712031416666!3d24.829947452596773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x140e866bcd185743%3A0xcee5b98268583e9b!2sGrocery%20&#39;n&#39;%20More!5e0!3m2!1sen!2s!4v1660235988497!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-us">
+          <div class="row">
+            <div class="contact-col">
+              <div>
+                <i class="fa fa-home"></i>
+                <span>
+                  <h5>D.H.A. Phase 7 Phase 2 Commercial Area Defence Housing Authority</h5>
+                  <p>Karachi City, Sindh 75500, Pakistan</p>
+                </span>
+              </div>
+              <i class="fa fa-phone"></i>
+              <span>
+                <h5>+92 301 1348494</h5>
+                <p>Monday to Sunday, 10AM to 9PM</p>
+              </span>
+            </div>
+            
+            <a href="https://www.facebook.com/messages/t/104830544599818">
+                <button class="hero-btn red-btn" >Give Message</button>
+            </a>
+    
+
+    
+    
+
+<!-- JS For Toggle Menu -->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>

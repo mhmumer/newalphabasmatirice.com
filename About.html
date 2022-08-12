@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Alpha Basmati Rice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=BhuTuka+Expanded+One&family=Fredoka+One&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="comments.html">Reviews</a></li>
+                    <!-- <li><a href="">Blog</a></li> -->
+                    <li><a href="Contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+      
+    
+    <h1>About us</h1>
+    <p>Taste The Joy in Every Grain.</p>
+  </section>
+    
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the seller of the best quality rice in town.</h1>
+                <p>New Alpha Basmati Rice is a privately owned rice company based in Pakistan and established in 2019. New Alpha Basmati Rice is a seller of Basmati Rice. The Company sails height for its premium quality Rice and expertise in exports. The company is known for manufacturing, processing, supplying and exporting a diverse range of rice all over the globe.We are serving our consumers by delivering top-quality rice to our customers. Our Mission is: 
+                  “To be a global high quality food supplier to consumers across the globe, delivering quality products and services resulting in customer satisfaction”</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+
+            </div>
+            <div class="about-col">
+                <img src="images/About.jpg" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    
+
+    <!-- footer -->
+ <footer class="text-gray-600 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      
+      <span class="ml-3 text-xl">New Alpha Basmati Rice</span>
+    </a>
+    <a class="class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"" href="https://www.facebook.com/NewAlphaBasmati"> | © New Alpha Basmati Rice</a>
+      <!-- <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a> -->
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500" href="https://www.facebook.com/NewAlphaBasmati">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" >
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      
+    </span>
+  </div>
+</footer>
+    
+
+<!-- JS For Toggle Menu -->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
